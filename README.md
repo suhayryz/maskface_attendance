@@ -9,6 +9,7 @@
 ### attendanceout - csv list for attendance exit (out)
 ### attendanceresult - csv list for attendance result processed
 
+
 ### Files:
 ### 01collectimage.py - collect image and save to database
 ### 02recognizer.py - main file, mask detection and face recognition
@@ -18,7 +19,9 @@
 ### Paper Published:
 
 
+
 ### Future Work:
+
 
 
 #### References. Credit to: 
