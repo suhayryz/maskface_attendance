@@ -2,14 +2,14 @@
 ## The attendance recognized members entrance (in) and exit (out) with additional first detection person wearing mask or not.
 
 
-### Folder:
+### Folders:
 ### members - members save collected images
 ### xml - cascade xml file
 ### attendancein - csv list for attendance entry (in)
 ### attendanceout - csv list for attendance exit (out)
 ### attendanceresult - csv list for attendance result processed
 
-### File:
+### Files:
 ### 01collectimage.py - collect image and save to database
 ### 02recognizer.py - main file, mask detection and face recognition
 ### 03attebdance.py - print result of members attendance
