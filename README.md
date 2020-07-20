@@ -12,7 +12,7 @@
 ### Files:
 #### 01collectimage.py - collect image and save to database
 #### 02recognizer.py - main file, mask detection and face recognition
-#### 03attebdance.py - print result of members attendance
+#### 03attendance.py - print result of members attendance
 
 
 ### Paper Published:
