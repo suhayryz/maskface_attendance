@@ -1,5 +1,5 @@
 # Real Time Mask Detection and Face Recognition Attendance System
-## The attendance recognized members entrance (in) and exit (out) with additional first detection person wearing mask or not
+## Real time attendance recognized members entrance (in) and exit (out) with additional first detection person wearing mask or not
 
 
 ### Folders:
@@ -17,10 +17,10 @@ attendanceresult - csv list for attendance result processed
 
 
 
-
 ### Paper Published:  
 
 
+### Exhibition/ Competition:
 
 
 ### Future Work:  
