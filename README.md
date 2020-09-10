@@ -11,8 +11,9 @@ attendanceresult - csv list for attendance result processed
 
 ### Files:
 01collectimage.py - collect image and save to database  
-02recognizer.py - main file, mask detection and face recognition  
-03attendance.py - print result of members attendance  
+02model.py - training and modelling  
+03attendance.py - main file, mask detection and face recognition
+04attendance - print result of members attendance 
 
 
 
