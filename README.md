@@ -1,4 +1,4 @@
-# Face Recognition For Attendance System with Mask Detection
+# Real Time Mask Detection and Face Recognition Attendance System
 ## The attendance recognized members entrance (in) and exit (out) with additional first detection person wearing mask or not.
 
 
