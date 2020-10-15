@@ -168,7 +168,7 @@ while True:
             rec_lbph.predict_collect(face, collector) # chosen algorithm
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
-            threshold = 76 # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68]
+            threshold = 76 # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68] [lbph lowest 76]
             print ("Prediction: " + labels_dic[pred].capitalize() + "\nConfidence: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
@@ -215,7 +215,7 @@ while True:
             rec_lbph.predict_collect(face, collector)  # chosen algorithm
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
-            threshold = 76     # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68]
+            threshold = 76     # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68] [lbph lowest 76]
             print ("Prediction: " + labels_dic[pred].capitalize() + "\nConfidence: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
