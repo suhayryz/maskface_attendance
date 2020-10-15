@@ -151,7 +151,7 @@ while True:
     frame0 = webcam0.get_frame()
     mask = detector_mask.detectMultiScale(frame0, 
                                  scaleFactor=1.2, 
-                                 minNeighbors=3, 
+                                 minNeighbors=5, 
                                  minSize=(100, 100),
                                  maxSize=(150, 150),
                                  flags=cv2.CASCADE_SCALE_IMAGE)
@@ -168,7 +168,7 @@ while True:
             rec_lbph.predict_collect(face, collector) # chosen algorithm
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
-            threshold = 140 # eigen 2600, fisher 1600, lbph 140
+            threshold = 76 # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68]
             print ("Prediction: " + labels_dic[pred].capitalize() + "\nConfidence: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
@@ -197,7 +197,7 @@ while True:
     frame1 = webcam1.get_frame()
     mask = detector_mask.detectMultiScale(frame1, 
                                  scaleFactor=1.2, 
-                                 minNeighbors=3, 
+                                 minNeighbors=5, 
                                  minSize=(100, 100),
                                  maxSize=(150, 150),
                                  flags=cv2.CASCADE_SCALE_IMAGE)
@@ -215,7 +215,7 @@ while True:
             rec_lbph.predict_collect(face, collector)  # chosen algorithm
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
-            threshold = 140     # eigen 2600, fisher 1600, lbph 140
+            threshold = 76     # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68]
             print ("Prediction: " + labels_dic[pred].capitalize() + "\nConfidence: " + str(round(conf)))
             
             if conf < threshold: # apply threshold

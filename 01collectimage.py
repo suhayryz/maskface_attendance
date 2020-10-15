@@ -76,7 +76,7 @@ class FaceDetector(object):
         return faces_coord
 
 # live face detection
-webcam = VideoCamera(1) # front cam acer
+webcam = VideoCamera(0) # front cam acer
 detector = FaceDetector("xml/frontal_face.xml")
 
 # crop images
