@@ -169,7 +169,7 @@ while True:
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
             threshold = 76 # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68] [lbph lowest 76]
-            print ("Prediction: " + labels_dic[pred].capitalize() + "\nConfidence: " + str(round(conf)))
+            print ("Prediction Entry: " + labels_dic[pred].capitalize() + "\nConfidence Entry: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
                 cv2.putText(frame0, labels_dic[pred].capitalize(),
@@ -216,7 +216,7 @@ while True:
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
             threshold = 76     # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68] [lbph lowest 76]
-            print ("Prediction: " + labels_dic[pred].capitalize() + "\nConfidence: " + str(round(conf)))
+            print ("Prediction Exit: " + labels_dic[pred].capitalize() + "\nConfidence Exit: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
                 cv2.putText(frame1, labels_dic[pred].capitalize(),
