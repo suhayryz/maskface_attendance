@@ -118,7 +118,7 @@ def collect_dataset():
 images, labels, labels_dic = collect_dataset()
 
 
-# train image (algorithm sets)g
+# train image (algorithm sets)
 rec_eig = cv2.face.EigenFaceRecognizer_create()
 rec_eig.train(images, labels)
 
