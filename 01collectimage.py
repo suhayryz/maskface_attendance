@@ -20,7 +20,7 @@ def plt_show(image, title=""):
     plt.show()
 
 
-webcam = cv2.VideoCapture(1)
+webcam = cv2.VideoCapture(2)
 _, frame = webcam.read()
 webcam.release()
 plt_show(frame)  
@@ -76,7 +76,7 @@ class FaceDetector(object):
         return faces_coord
 
 # live face detection
-webcam = VideoCamera(0) # front cam acer
+webcam = VideoCamera(2) # front cam acer
 detector = FaceDetector("xml/frontal_face.xml")
 
 # crop images

@@ -137,7 +137,7 @@ print ("Models Trained Succesfully")
 
 
 # face recognition
-webcam = VideoCamera(1)
+webcam = VideoCamera(2)
 frame = webcam.get_frame()
 detector = FaceDetector("xml/frontal_face.xml")
 frame = webcam.get_frame()

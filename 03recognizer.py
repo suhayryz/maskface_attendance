@@ -138,7 +138,7 @@ detector_mask = cv2.CascadeClassifier("xml/mask_cascade.xml")
 # 1 back cam acer
 # 2 front cam acer
 webcam0 = VideoCamera(0)
-webcam1 = VideoCamera(1)
+webcam1 = VideoCamera(2)
 
 
 ts = time.time()      
@@ -168,7 +168,7 @@ while True:
             rec_lbph.predict_collect(face, collector) # chosen algorithm
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
-            threshold = 76 # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68] [lbph lowest 76]
+            threshold = 76 # eigen, fisher, lbph [mean 3375,1175,65] [high lbph 76]
             print ("Prediction Entry: " + labels_dic[pred].capitalize() + "\nConfidence Entry: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
@@ -215,7 +215,7 @@ while True:
             rec_lbph.predict_collect(face, collector)  # chosen algorithm
             conf = collector.getMinDist()
             pred = collector.getMinLabel()
-            threshold = 76     # eigen 2600, fisher 1600, lbph 140 [mean 3536,1285,68] [lbph lowest 76]
+            threshold = 76 # eigen, fisher, lbph [mean 3375,1175,65] [high lbph 76]
             print ("Prediction Exit: " + labels_dic[pred].capitalize() + "\nConfidence Exit: " + str(round(conf)))
             
             if conf < threshold: # apply threshold
