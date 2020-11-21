@@ -32,7 +32,8 @@ attendanceresult - csv list for attendance result processed
 #### References. Credit to: 
 Source 1: https://github.com/rragundez/data-science-summit-2016  
 Source 2: https://github.com/ashishdubey10/Face-Recognition-Based-Attendance-System  
-Source Mask Cascade: https://www.rnfproject.eu.org/2020/05/face-mask-detector.html  
+Source Mask Cascade: https://www.rnfproject.eu.org/2020/05/face-mask-detector.html 
+                     @ https://projectiot26.blogspot.com/2020/05/face-mask-detector.html
 
 
  
