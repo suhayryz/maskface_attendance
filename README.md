@@ -18,7 +18,7 @@ attendanceresult - csv list for attendance result processed
 
 
 ### Paper Published:  
-
+*Under publishing*
 
 ### Exhibition/ Competition:
 Pertandingan Inovasi Pensyarah TVET 2020 (PERISA) Peringkat Kebangsaan 
