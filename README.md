@@ -18,15 +18,15 @@ attendanceresult - csv list for attendance result processed
 
 
 ### Paper Published:  
-Real-time mask detection and face recognition using eigenfaces and local binary pattern histogram for attendance system. (https://doi.org/10.11591/eei.v10i2.2859)
+Real-time mask detection and face recognition using eigenfaces and local binary pattern histogram for attendance system (https://doi.org/10.11591/eei.v10i2.2859)
 
-Suhaimin, M. S. M., Hijazi, M. H. A., Kheau, C. S., & On, C. K. (2021). Real-time mask detection and face recognition using eigenfaces and local binary pattern histogram for attendance system. Bulletin of Electrical Engineering and Informatics, 10(2), 1105-1113.
+Suhaimin, M. S. M., Hijazi, M. H. A., Kheau, C. S., & On, C. K. (2021). Real-time mask detection and face recognition using eigenfaces and local binary pattern histogram for attendance system. Bulletin of Electrical Engineering and Informatics, 10(2), 1105-1113
 
 ### Exhibition/ Competition:
 Pertandingan Inovasi Pensyarah TVET 2020 (PERISA) Peringkat Kebangsaan 
 
 ### Future Work:
-Masked face recognition.
+Masked face recognition
 
 
 #### References. Credit to: 
